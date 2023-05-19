@@ -1,4 +1,4 @@
-from customdecorators import ttime, cache, loginfo
+from custom_decorators import ttime, cache, loginfo
 
 
 @cache

@@ -7,10 +7,11 @@ def help():
     print(""" Available decorators:
     @ttime: prints the time it took to execute the function
     @cache: caches the function's result
-    @loginfo: logs the function's execution""")
+    @loginfo: logs the function's execution
+    """)
 
 
-help()
+# help()
 
 
 def cache(func):
