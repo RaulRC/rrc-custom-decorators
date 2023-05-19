@@ -1,0 +1,16 @@
+[project]
+name = "customdecorators"
+version = "0.0.1"
+authors = [
+  { name="Raúl Reguillo Carmona", email="raul@seenons.com" },
+]
+description = "Some useful decorators"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "http://raulrc.com"
