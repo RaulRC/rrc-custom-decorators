@@ -1,5 +1,10 @@
 # rrc-custom-decorators
-Custom decorators for projects
+Custom decorators for different purposes. Handy for debugging and testing.
+
+Three decorators are included here for now:
+- `ttime`: prints the time it took to execute the function
+- `cache`: caches the function's result
+- `loginfo`: logs the function's execution
 
 ## Installation
 ```bash
@@ -28,7 +33,7 @@ Time my_function: 0.0 s.
 
 ### `cache` decorator
 ```python
-from custom_decorators import cache
+from custom_decorators import cache, ttime
 
 @cache
 def fib(n):
